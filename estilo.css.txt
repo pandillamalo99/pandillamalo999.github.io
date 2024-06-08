@@ -1,0 +1,38 @@
+/* Estilos para la corona de promoción del Día del Padre */
+.crown {
+    width: 200px;
+    height: 150px;
+    background-color: #ffd700; /* Color dorado para la corona */
+    border-radius: 50%;
+    position: relative;
+}
+
+.crown::before, .crown::after {
+    content: '';
+    position: absolute;
+    top: -30px;
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+}
+
+.crown::before {
+    border-bottom: 30px solid #ffd700; /* Triángulo superior */
+}
+
+.crown::after {
+    top: -15px;
+    border-bottom: 15px solid #ffd700; /* Triángulo inferior */
+}
+
+/* Agregar un texto en el centro de la corona */
+.crown span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff; /* Color del texto */
+    font-size: 24px; /* Tamaño de la fuente */
+    font-weight: bold;
+}

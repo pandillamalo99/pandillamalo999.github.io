@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pago para Promoción - Corona</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head> <link rel="stylesheet" href="escritorio/css/estilo.css">
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="promocion">
+      <h1>Pago para Promoción</h1>
+      <p>¡Aprovecha esta increíble promoción del dia del Padre Con Corona!</p>
+      <img src="corona_promo.jpg" alt="Promoción Corona">
+      <p>Para obtener esta promoción, realiza el pago a través de los siguientes métodos:</p>
+      <ul>
+        <li>Tarjeta de crédito y debito</li>
+        <li>Transferencia bancaria</li>
+       
+      </ul>
+      <p>Una vez realizado el pago, envía el comprobante a nuestro correo electrónico para validar la promoción.</p>
+      <p>¡No te pierdas esta oportunidad única de disfrutar de una Corona bien fría!</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; 2022 Corona</p>
+  </footer>
+</body>
+</html>
